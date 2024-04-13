@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compteur de voyelles</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mon compteur de voyelles</h1>
+    </header>
+    <main class="main__content">
+      <div class="container">
+        <h2>Compteur de voyelles dynamiques</h2>
+        <textarea
+          name="textarea"
+          id="textarea"
+          onkeyup="counterVowels(this.value)"
+        ></textarea>
+        <div class="counter">
+          <h2>Voyelles</h2>
+          <span class="vowels__count">0</span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span>Site créé par aperbet56</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
