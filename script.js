@@ -9,6 +9,7 @@ const counterVowels = (str) => {
   let counter = 0;
   let vowelsArray = ["a", "e", "i", "o", "u", "y"];
 
+  // Boucle for qui va parcourir la chaîne de caractère (str)
   for (let letter of str) {
     if (vowelsArray.includes(letter)) {
       counter++; // incrémentation du compteur
