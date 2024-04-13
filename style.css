@@ -97,3 +97,11 @@ span {
     font-size: 1.4rem;
     font-weight: 600;
 }
+
+/**** Responsive design ****/
+
+@media screen and (max-width: 472px) {
+    #textarea {
+        height: 400px;
+    }
+}
