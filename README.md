@@ -6,7 +6,7 @@ Création d'un compteur de voyelles (a, e, i, o, u, y) avec affichage dynamique.
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/compteur_de_voyelles/
 
 ## Développez avec
 
