@@ -2,7 +2,7 @@
 
 ## Le challenge
 
-Création d'un compteur de voyelles (a, e, i, o, u, y) avec affichage dynamique.
+Création d'un compteur de voyelles (a, e, i, o, u, y) avec affichage en temps réél du nombre de voyelles tapées.
 
 ## Démonstration
 
