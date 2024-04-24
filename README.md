@@ -11,7 +11,7 @@ Lien vers le projet : https://aperbet56.github.io/compteur_de_voyelles/
 ## Développez avec
 
 - Utilisation des balises sémantiques HTML5
-- CSS
+- CSS3
 - Flexbox
 - Importation de la police Roboto
 - Page web responsive
