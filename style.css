@@ -15,10 +15,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(27, 180, 173, 0.733);
     font-family: "Roboto", sans-serif;
+    padding: 1rem;
 }
 
 header, footer {
@@ -36,38 +35,44 @@ h1 {
 
 .main__content {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    background-color: #ffffff;
-    width: 92%;
-    border-radius: 20px;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.733);
 }
 
 .container  {
-    width: 100%;
+    width: calc(768px - 1rem);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.733);
 }
 
 h2 {
     font-size: 1.5rem;
-    padding: 12px 0;
+    padding: 15px 0;
     text-align: center;
     text-transform: uppercase;
 }
+.text__count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 16px;
+    width: 100%;
+}
 
 #textarea {
-    width: 85%;
-    height: 300px;
+    width: 100%;
+    height: 250px;
     resize: none;
     outline: none;
-    border-radius: 15px;
+    border-radius: 12px;
     border: 2px solid rgba(27, 180, 173, 0.733);
     padding: 12px;
     font-size: 1.2rem;
@@ -82,8 +87,7 @@ h2 {
     background-color: rgba(27, 180, 173, 0.733);
     box-shadow: 0 4px 8px rgba(9, 100, 96, 0.733);
     color: #ffffff;
-    padding: 15px;
-    margin: 20px;
+    padding: 16px;
     border-radius: 8px;
 }
 
@@ -96,12 +100,4 @@ span {
     text-align: center;
     font-size: 1.4rem;
     font-weight: 600;
-}
-
-/**** Responsive design ****/
-
-@media screen and (max-width: 472px) {
-    #textarea {
-        height: 400px;
-    }
 }
