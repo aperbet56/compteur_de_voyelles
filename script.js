@@ -5,7 +5,7 @@ const vowelsCount = document.querySelector(".vowels__count");
 const counterVowels = (str) => {
   str = str.toLowerCase();
 
-  // Création des variables
+  // Création des variables counter et vowelsArray
   let counter = 0;
   let vowelsArray = ["a", "e", "i", "o", "u", "y"];
 
